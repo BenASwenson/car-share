@@ -1,0 +1,40 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+/*Background Image*/
+body{
+	font-family: 'Yusei Magic', sans-serif;
+	background: url("drawing_pad.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Style Jumbotron*/
+.jumbotron{
+	background-color: transparent;
+	text-align: center;
+	letter-spacing: 2.5px;
+	margin-top: 150px;
+	padding: 10px;
+}
+
+/*buttons*/
+.signup{
+	margin-top: 50px;
+}
+.green{
+	background-color: rgba(114,190,35,0.8);
+}
+.green:hover{
+	background-color: rgba(114,190,35);
+}
+
+/*footer*/
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}

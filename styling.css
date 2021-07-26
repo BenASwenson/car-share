@@ -1,0 +1,130 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+/*Background Image*/
+body{
+	font-family: 'Yusei Magic', sans-serif;
+	background: url("road.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*navbar*/
+
+.bg-custom-2{
+	background-image: linear-gradient(15deg, #843915 0%, #CB6D1C 100%);
+}
+
+
+
+/*buttons*/
+.signup{
+	margin: 30px auto;
+}
+.green{
+	background-color: rgba(114,190,35,0.8);
+}
+.green:hover{
+	background-color: rgba(114,190,35);
+}
+
+#myContainer{
+	margin-top: 15px;
+	text-align: center;
+	color: black;
+	padding-bottom: 150px;
+}
+.account{
+	color: white;
+}
+h1{
+	font-size: 3.5em;
+	color: white;
+}
+.bold{
+	font-weight: bold;
+	color: white;
+}
+.lead{
+	color: white;
+}
+#googleMap{
+	width: 100%;
+	height: 30vh;
+	margin: 10px auto 50px;
+}
+/*footer*/
+.footer{
+	position: relative;
+	margin-top: -150px;
+	height: 150px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	background-image: linear-gradient(15deg, #843915 0%, #CB6D1C 100%);
+}
+
+.profile{
+	height: auto;
+	max-width: 100%;
+	border-radius: 50%;
+}
+#searchResults{
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+.driver{
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+.tripdeparture, .tripdestination,{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.price{
+	font-size: 2em;
+}
+.perseat{
+	font-size: 0.5em;
+}
+.seatsavailableP{
+	font-size: 0.7em;
+}
+.journey{
+	text-align: left;
+}
+.time{
+	margin-top: 10px;
+}
+.journey2{
+	text-align: right;
+}
+.moreinfo{
+	text-align: left;
+}
+.aboutme{
+	border-top: 1px solid grey;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+.journeysummary, .noresults{
+	text-align: left;
+	font-size: 1.5em;
+}
+#spinner{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	z-index: 1100;
+}
+.preview{
+	height: 20px;
+	border-radius: 50%;
+}
